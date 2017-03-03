@@ -5,9 +5,9 @@ language: ruby
 rvm:
   # Ruby 2.0.0 fails due to newer Nokogir
   # nokogiri-1.7.0.1 requires ruby version >= 2.1.0, which is incompatible with the current version, ruby 2.0.0p648
-  - 2.1.10
+  # - 2.1.10
   - 2.2.6
-  - 2.3.1
+  # - 2.3.1
 services:
   - docker
 
@@ -51,6 +51,6 @@ before_script:
 script:
   - rake
 
-notifications:
-  slack:
-    secure: LfcUk4AJ4vAxWwRIyw4tFh8QNbYefMwfG/oLfsN3CdRMWMOtCOHR1GGsRhAOlfVVJ/FvHqVqWj5gK7z7CaO5Uvl7rD3/zJ8QzExKx/iH9yWj55iIPuKLzwFNnBwRpFW/cqyU2lFPPRxGD50BUn3c+qybkuSqtKZ6qtTowwqlxLa5iyM3N95aZp7MEIKCP7cPcnHfLbJyP8wBpotp/rtw62eXM2HIRJJwgjcp+n+My7VFR9DnBXNFf6R91aZHM4U4cHHDbu15HFtH8honVrzK1JQdyqMNHga+j04dFuaS7z9Q369/hsELMOBp/227+Pz7ZRfWZFK4UASguOvyeX7RmGTRpTuWLm1XJeUzfsPZVROecaSVQBve+U7F12yKqilt97QlvRXn2EGyBILqvxtFNNR4S9kgAf72/6EFgiM1TKq7i9zy6lVOnagU2+7amq7UeopX1uoFsUfNKMR7YbgV1WjF0IK95UP0b0/7ZOJlPYgi5zzkQi129qAFWSMmxGk+ZpsttHh/tjJtvAh0A3mHq/zb5w4ub/MbSyZqeDUNgGj72QArOWUFSAStQT1ybsVLeDoKPgOvVq7OV1D64rpcHjBXcqOCit8tDZ+TqkFhcYJo2cITSaqE4zJXn+4F5s7So5O8CyfKYQq+kFJCooYGmfgTUckJpGl7eIvKmL4TN9Q=
+# notifications:
+#   slack:
+#     secure: LfcUk4AJ4vAxWwRIyw4tFh8QNbYefMwfG/oLfsN3CdRMWMOtCOHR1GGsRhAOlfVVJ/FvHqVqWj5gK7z7CaO5Uvl7rD3/zJ8QzExKx/iH9yWj55iIPuKLzwFNnBwRpFW/cqyU2lFPPRxGD50BUn3c+qybkuSqtKZ6qtTowwqlxLa5iyM3N95aZp7MEIKCP7cPcnHfLbJyP8wBpotp/rtw62eXM2HIRJJwgjcp+n+My7VFR9DnBXNFf6R91aZHM4U4cHHDbu15HFtH8honVrzK1JQdyqMNHga+j04dFuaS7z9Q369/hsELMOBp/227+Pz7ZRfWZFK4UASguOvyeX7RmGTRpTuWLm1XJeUzfsPZVROecaSVQBve+U7F12yKqilt97QlvRXn2EGyBILqvxtFNNR4S9kgAf72/6EFgiM1TKq7i9zy6lVOnagU2+7amq7UeopX1uoFsUfNKMR7YbgV1WjF0IK95UP0b0/7ZOJlPYgi5zzkQi129qAFWSMmxGk+ZpsttHh/tjJtvAh0A3mHq/zb5w4ub/MbSyZqeDUNgGj72QArOWUFSAStQT1ybsVLeDoKPgOvVq7OV1D64rpcHjBXcqOCit8tDZ+TqkFhcYJo2cITSaqE4zJXn+4F5s7So5O8CyfKYQq+kFJCooYGmfgTUckJpGl7eIvKmL4TN9Q=
